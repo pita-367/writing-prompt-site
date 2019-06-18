@@ -1,0 +1,18 @@
+{
+    "name": "Random Prompt Generator App",
+    "description": "A Python(Django) app deployed to Heroku.",
+    "image": "heroku/python",
+    "repository": "https://github.com/pita-367/PromptSite",
+    "keywords": ["python", "django" ],
+    "env": {
+      "SECRET_KEY": {
+        "description": "The secret key for the Django application.",
+        "generator": "secret"
+      }
+    }
+<<<<<<< HEAD
+
+  }
+=======
+  }
+>>>>>>> a752e51f786c70d687c6d2fd251e02224e94e7e2

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+ 
+<h1> Welcome </h1>
+<h2> Random Prompt Generator  </h2>
+
+<p> Using the nouns provided, write a short story </p>
+
+<form>
+    <p> Select number of nouns: </p> <br>
+    <input type="number" id="numnoun" min="1" max="10"> <br>
+
+    <br><br>
+</form>
+    <button onclick="submitvalue()"> Generate Words </button>
+    
+    <input type="hidden" id="Url" data-url="{% url 'prompt' %}"/>
+    
+{% endblock %}

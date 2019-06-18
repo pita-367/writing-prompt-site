@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div id="loading">
+        <h1> Loading... </h1>
+    </div>
+
+<div id="page">
+    <h1> Welcome </h1>
+    <h2> Random Prompt Generator  </h2>
+
+    <h3>Here are your words:</h3>
+    <p id="wordlist"></p>
+
+    <p> Enjoy!</p>
+    
+</div>
+
+
+<script> 
+    $(window).bind("load", function() {
+    onLoad();
+    });
+</script>
+
+
+
+{% endblock %}

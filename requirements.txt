@@ -1,0 +1,16 @@
+Django==2.0.12
+django-heroku
+dj-database-url==0.3.0
+dj-static==0.0.6
+gunicorn==19.6.0
+Unipath==1.0
+python-decouple==3
+Pillow==3.3.2
+Markdown==2.6.6
+bleach==1.4.3
+psycopg2-binary==2.8.3
+<<<<<<< HEAD
+whitenoise==3.2
+=======
+whitenoise==3.2
+>>>>>>> a752e51f786c70d687c6d2fd251e02224e94e7e2
