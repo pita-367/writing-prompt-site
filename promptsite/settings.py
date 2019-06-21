@@ -26,7 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ECRET_KEY = "dummy_key"
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://writing-prompt-generator.herokuapp.com']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'herokuapp',
 
     #own apps
     #'Nouns',
