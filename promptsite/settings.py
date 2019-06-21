@@ -23,8 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECRET_KEY = config('SECRET_KEY')
-ECRET_KEY = "dummy_key"
-DEBUG = config('DEBUG', cast=bool)
+SECRET_KEY = "dummy_key"
+#DEBUG = config('DEBUG', cast=bool)
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://writing-prompt-generator.herokuapp.com']
 
